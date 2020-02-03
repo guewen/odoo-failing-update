@@ -6,7 +6,7 @@
 1. Open a runbot in 13.0
 2. Go to Inventory > Configuration > Settings. Activate Warehouse Locations
 3. Go to Inventory > Configuration >  Locations. Click on Import
-4. Select the file `stock.location.csv` present in this directory
+4. Select the file `stock.location.csv` or `stock.location.minimal` present in this directory
 5. Confirm the import
 
 
