@@ -1,0 +1,4 @@
+id,name,location_id,usage,active,comment
+location_test_1,Test 1,WH/Stock,internal,1,comment 1
+location_test_2,Test 2,WH/Stock,internal,1,comment 2
+stock.stock_location_stock,STOCK,WH,internal,1,comment STOCK
