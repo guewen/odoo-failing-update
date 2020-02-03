@@ -1,0 +1,23 @@
+<odoo noupdate="1">
+
+    <record id="location_test_1" model="stock.location">
+        <field name="name">Test 1</field>
+        <field name="location_id" ref="stock.stock_location_stock"/>
+        <field name="usage">internal</field>
+        <field name="active" eval="True"/>
+    </record>
+
+    <record id="location_test_2" model="stock.location">
+        <field name="name">Test 2</field>
+        <field name="location_id" ref="stock.stock_location_stock"/>
+        <field name="usage">internal</field>
+        <field name="active" eval="True"/>
+    </record>
+
+    <record id="stock.stock_location_stock" model="stock.location">
+        <field name="name">STOCK</field>
+        <field name="active" eval="True"/>
+        <field name="comment">A comment</field>
+    </record>
+
+</odoo>
